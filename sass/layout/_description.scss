@@ -1,0 +1,39 @@
+.description {
+  background-color: #ffffff;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.description-list {
+  display: flex;
+}
+.desctiption-list__li {
+  padding-right: 30px;
+}
+.desctiption-div-icon {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description__h3 {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  font-style: normal;
+  font-size: 14px;
+}
+.description__p {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10px;
+}
