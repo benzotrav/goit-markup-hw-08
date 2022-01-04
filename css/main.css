@@ -884,6 +884,26 @@ img {
   color: #ffffff;
 }
 
+.footer-tablet {
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-tablet {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-tablet {
+    text-align: left;
+    margin-bottom: 0;
+    margin-right: auto;
+  }
+}
+
 .footer-input-div {
   margin-top: 12px;
 }
