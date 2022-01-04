@@ -568,6 +568,12 @@ img {
   background-color: #ffffff;
 }
 
+@media screen and (max-width: 1199px) {
+  .photo {
+    display: none;
+  }
+}
+
 .photo__h2 {
   font-weight: 700;
   line-height: 1.17;
