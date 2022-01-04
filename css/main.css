@@ -40,7 +40,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
@@ -192,21 +192,15 @@ body {
 }
 
 .motto__h1 {
-  line-height: 1.36;
-  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  color: #fff;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  text-align: center;
-  width: 696px;
-  display: inline-block;
-  padding-bottom: 40px;
-  width: 696px;
-  display: flex;
-  margin: 0 auto;
 }
 
 .motto__btn {
