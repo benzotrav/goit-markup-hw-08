@@ -799,8 +799,20 @@ img {
   align-items: center;
 }
 
+@media screen and (min-width: 1199px) {
+  .footer-div {
+    display: flex;
+  }
+}
+
 .footer-div-address {
   margin-bottom: 60px;
+}
+
+@media screen and (min-width: 1199px) {
+  .footer-div-address {
+    margin-right: 70px;
+  }
 }
 
 .footer-address {
@@ -892,7 +904,6 @@ img {
   .footer-tablet {
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
   }
 }
 
@@ -900,7 +911,7 @@ img {
   .footer-tablet {
     text-align: left;
     margin-bottom: 0;
-    margin-right: auto;
+    margin-right: 93px;
   }
 }
 
@@ -917,6 +928,12 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1199px) {
+  .footer-form {
+    display: flex;
+  }
 }
 
 .footer-form-input {
