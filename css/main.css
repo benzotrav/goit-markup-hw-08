@@ -668,14 +668,13 @@ img {
 }
 
 .team__h2 {
-  font-weight: 700;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
+  margin: 0 0 50px 0;
   color: #212121;
-  font-style: normal;
-  font-size: 36px;
-  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
