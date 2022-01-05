@@ -8,8 +8,8 @@
 
 .header__nav {
   display: flex;
+  align-items: center;
   @media screen and (min-width: 1199px) {
-    align-items: baseline;
   }
 }
 .header-mob-menu {
