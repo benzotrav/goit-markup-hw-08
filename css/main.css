@@ -130,6 +130,9 @@ img {
 
 .header-mob-menu {
   display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-mob-menu__btn {
@@ -143,7 +146,12 @@ img {
   align-items: center;
   border: none;
   cursor: pointer;
-  transition: fill var(--transition-duration) var(--transition-hover);
+}
+
+@media screen and (min-width: 767px) {
+  .header-mob-menu__btn {
+    display: none;
+  }
 }
 
 .header-list {
