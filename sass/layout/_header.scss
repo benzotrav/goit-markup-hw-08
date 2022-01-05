@@ -4,6 +4,12 @@
   border-bottom: 1px solid #ececec;
   background-color: #ffffff;
 }
+.header .conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
 .header__nav {
   display: flex;
   align-items: baseline;
@@ -94,6 +100,10 @@
   &:focus,
   &:hover {
     color: #2196f3;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 12px;
+    line-height: 1.16;
   }
 }
 .header-list2__icon {
