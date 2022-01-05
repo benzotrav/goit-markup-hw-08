@@ -15,6 +15,9 @@
 }
 .footer-div-address {
   margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
+  }
   @media screen and (min-width: 1199px) {
     margin-right: 70px;
   }
@@ -49,7 +52,6 @@
 .footer-icon-div {
   fill: currentColor;
   margin-top: 12px;
-  margin-bottom: 60px;
 }
 .footer-icon-list {
   display: flex;

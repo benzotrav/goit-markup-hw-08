@@ -836,6 +836,12 @@ img {
   margin-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-div-address {
+    margin-bottom: 0px;
+  }
+}
+
 @media screen and (min-width: 1199px) {
   .footer-div-address {
     margin-right: 70px;
@@ -877,7 +883,6 @@ img {
 .footer-icon-div {
   fill: currentColor;
   margin-top: 12px;
-  margin-bottom: 60px;
 }
 
 .footer-icon-list {
