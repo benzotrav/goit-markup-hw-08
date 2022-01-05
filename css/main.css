@@ -132,6 +132,12 @@ img {
   display: flex;
 }
 
+@media screen and (max-width: 1199px) {
+  .header-mob-menu {
+    width: 100%;
+  }
+}
+
 .header-mob-menu__btn {
   display: inline-flex;
   padding: 0;
@@ -145,7 +151,7 @@ img {
   cursor: pointer;
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 767px) {
   .header-mob-menu__btn {
     display: none;
   }
@@ -202,12 +208,6 @@ img {
 .current {
   position: relative;
   color: #2196f3;
-}
-
-@media screen and (min-width: 767px) {
-  .header-list2 {
-    display: block;
-  }
 }
 
 @media screen and (max-width: 767px) {

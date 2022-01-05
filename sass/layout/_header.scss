@@ -14,6 +14,9 @@
 }
 .header-mob-menu {
   display: flex;
+  @media screen and (max-width: 1199px) {
+    width: 100%;
+  }
 }
 .header-mob-menu__btn {
   display: inline-flex;
@@ -26,7 +29,7 @@
   align-items: center;
   border: none;
   cursor: pointer;
-  @media screen and (min-width: 1199px) {
+  @media screen and (min-width: 767px) {
     display: none;
   }
 }
@@ -75,9 +78,9 @@
   color: #2196f3;
 }
 .header-list2 {
-  @media screen and (min-width: 767px) {
-    display: block;
-  }
+  // @media screen and (min-width: 767px) {
+  //   display: block;
+  // }
   @media screen and (max-width: 767px) {
     display: none;
   }
