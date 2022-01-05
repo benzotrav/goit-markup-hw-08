@@ -181,15 +181,15 @@ img {
   color: #2196f3;
 }
 
-@media screen and (max-width: 767px) {
-  .header-list2 {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 767px) {
   .header-list2 {
     display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header-list2 {
+    display: none;
   }
 }
 
@@ -271,7 +271,7 @@ img {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 767px) {
   .motto {
     height: 600px;
     max-width: 1600px;
@@ -279,7 +279,7 @@ img {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 767px) {
   .motto .container {
     width: 396px;
   }

@@ -58,11 +58,11 @@
   color: #2196f3;
 }
 .header-list2 {
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
   @media screen and (min-width: 767px) {
     display: block;
+  }
+  @media screen and (max-width: 767px) {
+    display: none;
   }
   @media screen and (min-width: 1199px) {
     display: inline-flex;
