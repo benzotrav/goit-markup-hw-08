@@ -239,6 +239,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1199px) {
+  .motto .container {
+    width: 700px;
+  }
+}
+
 .motto__h1 {
   text-align: center;
   letter-spacing: 0.06em;
