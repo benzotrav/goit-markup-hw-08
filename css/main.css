@@ -698,6 +698,24 @@ img {
   margin-right: 0px;
 }
 
+@media screen and (min-width: 320px) {
+  .team-list__li {
+    max-width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-list__li {
+    max-width: 354px;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .team-list__li {
+    max-width: 270px;
+  }
+}
+
 .team__img {
   width: 100%;
   height: auto;
@@ -1000,13 +1018,19 @@ img {
   border-radius: 4px;
   background-color: transparent;
   padding-left: 16px;
-  margin-right: 12px;
   color: #f5f4fa;
   margin-bottom: 20px;
 }
 
 .footer-form-input::placeholder {
   color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (min-width: 1199px) {
+  .footer-form-input {
+    min-width: 358px;
+    margin-right: 12px;
+  }
 }
 
 .footer-form-input__btn {

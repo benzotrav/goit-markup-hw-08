@@ -135,12 +135,15 @@
   border-radius: 4px;
   background-color: transparent;
   padding-left: 16px;
-  margin-right: 12px;
   color: #f5f4fa;
   &::placeholder {
     color: rgba(255, 255, 255, 0.6);
   }
   margin-bottom: 20px;
+  @media screen and (min-width: 1199px) {
+    min-width: 358px;
+    margin-right: 12px;
+  }
 }
 .footer-form-input__btn {
   width: 200px;
