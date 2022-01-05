@@ -134,6 +134,12 @@ img {
   margin-left: 93px;
 }
 
+@media screen and (max-width: 767px) {
+  .header-list {
+    display: none;
+  }
+}
+
 .header-list__li {
   margin-right: 50px;
   cursor: pointer;
@@ -174,6 +180,12 @@ img {
 .header-list2 {
   display: flex;
   margin-left: 178px;
+}
+
+@media screen and (max-width: 767px) {
+  .header-list2 {
+    display: none;
+  }
 }
 
 .header-list2__li {
