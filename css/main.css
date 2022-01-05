@@ -1070,9 +1070,26 @@ img {
 }
 
 .nav-list {
-  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-list {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
 }
 
 .nav-list__li {
@@ -1083,6 +1100,12 @@ img {
 
 .nav-list__li:last-child {
   margin-right: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-list__li {
+    margin-bottom: 15px;
+  }
 }
 
 .nav-list__btn {
