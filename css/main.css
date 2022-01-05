@@ -896,12 +896,6 @@ img {
   fill: currentColor;
 }
 
-@media screen and (min-width: 1199px) {
-  .footer-icon-div {
-    margin-top: 12px;
-  }
-}
-
 .footer-icon-list {
   display: flex;
   justify-content: center;
@@ -953,6 +947,7 @@ img {
   .footer-tablet {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
   }
 }
 
@@ -979,6 +974,12 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1199px) {
+  .footer-input-div__h3 {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1199px) {

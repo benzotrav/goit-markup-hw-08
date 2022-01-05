@@ -8,7 +8,6 @@
   align-items: center;
 }
 .footer-div {
-  // display: flex;
   @media screen and (min-width: 1199px) {
     display: flex;
   }
@@ -51,9 +50,6 @@
 }
 .footer-icon-div {
   fill: currentColor;
-  @media screen and (min-width: 1199px) {
-    margin-top: 12px;
-  }
 }
 .footer-icon-list {
   display: flex;
@@ -100,6 +96,7 @@
   @media screen and(min-width:768px) {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
   }
 
   @media screen and(min-width:1200px) {
@@ -124,6 +121,7 @@
   color: #ffffff;
   margin-bottom: 20px;
   @media screen and (min-width: 1199px) {
+    text-align: left;
   }
 }
 .footer-form {
