@@ -678,6 +678,17 @@ img {
   padding-right: 30px;
 }
 
+.photo-h3-div {
+  width: 360px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1435px;
+}
+
 .photo-h3-div__h3 {
   font-style: normal;
   font-weight: bold;
@@ -687,14 +698,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  width: 100%;
-  height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 1435px;
 }
 
 .team {
