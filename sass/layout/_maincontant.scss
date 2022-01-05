@@ -83,7 +83,7 @@
     margin-right: 30px;
     flex-basis: calc(100% / 2 - 30px);
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1199px) {
     flex-basis: calc(100% / 3 - 30px);
     &:nth-child(3n) {
       margin-right: 0px;
@@ -104,6 +104,7 @@
 }
 .maincontant-div-img__img {
   width: 100%;
+  height: auto;
 }
 .maincontant-list__link {
   display: block;

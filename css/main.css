@@ -1158,7 +1158,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1199px) {
   .maincontant-list__li {
     flex-basis: calc(100% / 3 - 30px);
   }
@@ -1183,6 +1183,7 @@ img {
 
 .maincontant-div-img__img {
   width: 100%;
+  height: auto;
 }
 
 .maincontant-list__link {
