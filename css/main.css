@@ -28,7 +28,7 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .btn {
@@ -696,6 +696,12 @@ img {
 
 .team-list__li:last-child {
   margin-right: 0px;
+}
+
+.team__img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .team-icon-list {
