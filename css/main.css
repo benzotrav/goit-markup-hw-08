@@ -111,15 +111,21 @@ img {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
   background-color: #ffffff;
+  display: flex;
+  height: 81px;
+  align-items: center;
 }
 
 .header__nav {
   display: flex;
-  align-items: baseline;
+}
+
+@media screen and (min-width: 1199px) {
+  .header__nav {
+    align-items: baseline;
+  }
 }
 
 .header-list {
@@ -164,7 +170,7 @@ img {
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: 0px;
+  bottom: 2px;
   background-color: #2196f3;
   height: 4px;
   border-radius: 2px;

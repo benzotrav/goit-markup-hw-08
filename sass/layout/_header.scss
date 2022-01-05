@@ -1,18 +1,16 @@
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
   background-color: #ffffff;
-}
-.header .conteiner {
   display: flex;
+  height: 81px;
   align-items: center;
-  justify-content: space-between;
-  position: relative;
 }
+
 .header__nav {
   display: flex;
-  align-items: baseline;
+  @media screen and (min-width: 1199px) {
+    align-items: baseline;
+  }
 }
 
 .header-list {
@@ -49,7 +47,7 @@
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: 0px;
+    bottom: 2px;
     background-color: #2196f3;
     height: 4px;
     border-radius: 2px;
