@@ -120,15 +120,16 @@ img {
 
 .header__nav {
   display: flex;
-  align-items: center;
+}
+
+@media screen and (min-width: 1199px) {
+  .header__nav {
+    align-items: baseline;
+  }
 }
 
 .header-mob-menu {
   display: flex;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
 }
 
 .header-mob-menu__btn {
@@ -144,7 +145,7 @@ img {
   cursor: pointer;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 1199px) {
   .header-mob-menu__btn {
     display: none;
   }

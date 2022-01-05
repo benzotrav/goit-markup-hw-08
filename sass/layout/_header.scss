@@ -8,16 +8,12 @@
 
 .header__nav {
   display: flex;
-  align-items: center;
   @media screen and (min-width: 1199px) {
+    align-items: baseline;
   }
 }
 .header-mob-menu {
   display: flex;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
 }
 .header-mob-menu__btn {
   display: inline-flex;
@@ -30,7 +26,7 @@
   align-items: center;
   border: none;
   cursor: pointer;
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 1199px) {
     display: none;
   }
 }
