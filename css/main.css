@@ -849,7 +849,7 @@ img {
 }
 
 .footer-address {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .footer-list__li {
@@ -882,7 +882,12 @@ img {
 
 .footer-icon-div {
   fill: currentColor;
-  margin-top: 12px;
+}
+
+@media screen and (min-width: 1199px) {
+  .footer-icon-div {
+    margin-top: 12px;
+  }
 }
 
 .footer-icon-list {
@@ -900,7 +905,7 @@ img {
 }
 
 .footer-icon-div__h3 {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -947,8 +952,10 @@ img {
   }
 }
 
-.footer-input-div {
-  margin-top: 12px;
+@media screen and (min-width: 1199px) {
+  .footer-input-div {
+    margin-top: 12px;
+  }
 }
 
 .footer-input-div__h3 {
