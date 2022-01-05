@@ -116,6 +116,8 @@ img {
   display: flex;
   height: 81px;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 .header__nav {
