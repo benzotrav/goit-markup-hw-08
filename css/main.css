@@ -1090,7 +1090,6 @@ img {
 @media screen and (min-width: 1199px) {
   .footer-form {
     display: flex;
-    width: 556px;
   }
 }
 
