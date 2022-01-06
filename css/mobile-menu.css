@@ -5,10 +5,19 @@
   height: 100vh;
   width: 100vw;
   background-color: #ffffff;
+  padding: 32px 15px;
   transform: translateX(100%);
 }
 
 .mobile-modal.is-open {
   transform: translateX(0%);
+}
+
+.mobile-modal__close {
+  background-color: #ffffff;
+  border: 0px;
+  position: absolute;
+  top: 21px;
+  right: 15px;
 }
 /*# sourceMappingURL=mobile-menu.css.map */
