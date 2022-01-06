@@ -883,14 +883,26 @@ img {
 }
 
 .clients__h2 {
-  margin-bottom: 50px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  margin: 0 0 50px 0;
   color: #212121;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .clients__h2 {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .clients__h2 {
+    font-size: 36px;
+    line-height: 1.17;
+  }
 }
 
 .clients-list {
