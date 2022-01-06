@@ -306,6 +306,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1199px) {
+  .motto {
+    height: 600px;
+  }
+}
+
 @media screen and (min-width: 767px) {
   .motto .container {
     width: 396px;

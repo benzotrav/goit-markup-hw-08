@@ -36,6 +36,9 @@
       ),
       url("../images/background.jpg");
   }
+  @media screen and (min-width: 1199px) {
+    height: 600px;
+  }
 }
 .motto .container {
   @media screen and (min-width: 767px) {
