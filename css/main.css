@@ -114,12 +114,23 @@ img {
   border-bottom: 1px solid #ececec;
   background-color: #ffffff;
   display: flex;
-  height: 81px;
   align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+  .header {
+    height: 80px;
+  }
 }
 
 .header__nav {
   display: flex;
+}
+
+@media screen and (min-width: 767px) {
+  .header__nav {
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 1199px) {
@@ -214,6 +225,10 @@ img {
   color: #2196f3;
 }
 
+.header-list2 {
+  align-items: center;
+}
+
 @media screen and (max-width: 767px) {
   .header-list2 {
     display: none;
@@ -285,6 +300,7 @@ img {
   min-height: 400px;
   margin-right: auto;
   margin-left: auto;
+  background-color: #fff;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-mob.jpg");
   background-repeat: no-repeat;
   background-position: center;

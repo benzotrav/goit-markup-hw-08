@@ -2,12 +2,17 @@
   border-bottom: 1px solid #ececec;
   background-color: #ffffff;
   display: flex;
-  height: 81px;
   align-items: center;
+  @media screen and (min-width: 767px) {
+    height: 80px;
+  }
 }
 
 .header__nav {
   display: flex;
+  @media screen and (min-width: 767px) {
+    align-items: center;
+  }
   @media screen and (min-width: 1199px) {
     align-items: baseline;
   }
@@ -79,9 +84,7 @@
   color: #2196f3;
 }
 .header-list2 {
-  // @media screen and (min-width: 767px) {
-  //   display: block;
-  // }
+  align-items: center;
   @media screen and (max-width: 767px) {
     display: none;
   }
