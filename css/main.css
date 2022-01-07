@@ -117,6 +117,12 @@ img {
   align-items: center;
 }
 
+@media screen and (min-width: 320px) {
+  .header {
+    height: 60px;
+  }
+}
+
 @media screen and (min-width: 767px) {
   .header {
     height: 80px;
@@ -178,6 +184,8 @@ img {
 .header-list {
   display: flex;
   margin-right: 84px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 @media screen and (max-width: 767px) {
