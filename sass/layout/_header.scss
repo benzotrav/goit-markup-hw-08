@@ -48,7 +48,7 @@
 .header-list {
   display: flex;
   margin-right: 84px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
 }
@@ -89,7 +89,7 @@
 }
 .header-list2 {
   align-items: center;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     display: none;
   }
   @media screen and (min-width: 1199px) {
@@ -99,7 +99,7 @@
 }
 .header-list2__li {
   cursor: pointer;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 767px) {
     margin-bottom: 10px;
     &:last-child {
       margin-bottom: 0px;
