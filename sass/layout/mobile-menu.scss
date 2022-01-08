@@ -25,6 +25,11 @@
   position: absolute;
   top: 21px;
   right: 15px;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
 }
 
 .mobile-menu {
