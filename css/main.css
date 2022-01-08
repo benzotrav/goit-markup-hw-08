@@ -115,18 +115,7 @@ img {
   background-color: #ffffff;
   display: flex;
   align-items: center;
-}
-
-@media screen and (min-width: 320px) {
-  .header {
-    height: 60px;
-  }
-}
-
-@media screen and (min-width: 767px) {
-  .header {
-    height: 80px;
-  }
+  height: 80px;
 }
 
 .header__nav {
@@ -184,6 +173,8 @@ img {
 .header-list {
   display: flex;
   margin-right: 84px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 @media screen and (max-width: 767px) {
@@ -221,7 +212,7 @@ img {
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: 2px;
+  bottom: -1px;
   background-color: #2196f3;
   height: 4px;
   border-radius: 2px;
