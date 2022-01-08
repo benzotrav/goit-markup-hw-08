@@ -13,7 +13,7 @@
 
 .header__nav {
   display: flex;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 767px) {
     align-items: center;
   }
   @media screen and (min-width: 1199px) {
@@ -48,7 +48,7 @@
 .header-list {
   display: flex;
   margin-right: 84px;
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 }
