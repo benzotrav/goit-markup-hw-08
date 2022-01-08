@@ -162,12 +162,17 @@ img {
   align-items: center;
   border: none;
   cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) {
   .header-mob-menu__btn {
     display: none;
   }
+}
+
+.header-mob-menu__btn::hover, .header-mob-menu__btn::focus {
+  color: #2196f3;
 }
 
 .header-list {
@@ -1378,6 +1383,12 @@ img {
   position: absolute;
   top: 21px;
   right: 15px;
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-modal__close:hover, .mobile-modal__close:focus {
+  color: #2196f3;
 }
 
 .mobile-menu {
