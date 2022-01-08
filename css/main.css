@@ -555,7 +555,7 @@ img {
   color: #757575;
   align-items: center;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .modal-checkbox-div__label::before {
@@ -1437,7 +1437,6 @@ img {
   margin-bottom: 32px;
   color: #2196f3;
   margin-bottom: 32px;
-  font-style: normal;
 }
 
 .mobile-contacts-list__link.email {
@@ -1447,7 +1446,6 @@ img {
   letter-spacing: 0.02em;
   color: #757575;
   margin-bottom: 0px;
-  font-style: normal;
 }
 
 .mobile-social-list {
