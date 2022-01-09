@@ -36,8 +36,8 @@
 .mobile-menu {
   flex-basis: 100%;
   height: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
 }
 
@@ -63,6 +63,10 @@
   letter-spacing: 0.02em;
   display: block;
   color: #212121;
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
 }
 .mobile-menu-list__link.current-page {
   color: #2196f3;
