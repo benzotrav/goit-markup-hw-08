@@ -552,10 +552,8 @@ img {
 }
 
 .modal-checkbox-div__label {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #757575;
   align-items: center;
