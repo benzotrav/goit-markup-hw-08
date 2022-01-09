@@ -305,16 +305,28 @@ img {
   margin-right: auto;
   margin-left: auto;
   background-color: #fff;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-mob.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-mob-1x.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .motto {
+    background-image: url("../images/hero-bg-mob-2x.png");
+  }
+}
+
 @media screen and (min-width: 481px) {
   .motto {
     max-width: 768px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-tab.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-bg-tab-1x.png");
+  }
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .motto {
+    background-image: url("../images/hero-bg-tab-2x.png");
   }
 }
 
@@ -322,7 +334,7 @@ img {
   .motto {
     height: 400px;
     max-width: 1600px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-bg.jpg");
   }
 }
 
