@@ -23,7 +23,7 @@ body {
 }
 
 body {
-  background: #e5e5e5;
+  background: #ffffff;
   font-family: Roboto;
 }
 
@@ -398,6 +398,7 @@ img {
   left: 0;
   transition: opacity 350ms, visibility 350ms;
   z-index: 1;
+  transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -1209,6 +1210,12 @@ img {
   .nav-list {
     justify-content: center;
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .nav-list {
+    margin-bottom: 50px;
   }
 }
 
