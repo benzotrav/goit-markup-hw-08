@@ -41,8 +41,6 @@
   flex-direction: column;
 }
 
-.mobile-menu-nav {
-}
 .mobile-menu-list {
   display: flex;
   flex-direction: column;
@@ -71,8 +69,7 @@
 .mobile-menu-list__link.current-page {
   color: #2196f3;
 }
-.mobile-contacts {
-}
+
 .mobile-contacts-list {
   @media screen and (max-width: 767px) {
     margin-bottom: 64px;
