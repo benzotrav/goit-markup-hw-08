@@ -374,10 +374,17 @@ img {
   margin-left: auto;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1199px) {
+  .motto__h1 {
+    max-width: 396px;
+  }
+}
+
+@media screen and (min-width: 1199px) {
   .motto__h1 {
     font-size: 44px;
     line-height: 1.36;
+    max-width: 700px;
   }
 }
 
