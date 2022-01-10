@@ -1172,6 +1172,7 @@ img {
   .footer-form-input {
     min-width: 358px;
     margin-right: 12px;
+    margin-bottom: 0px;
   }
 }
 
