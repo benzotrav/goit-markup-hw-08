@@ -47,6 +47,9 @@
   color: #212121;
   font-style: normal;
   font-size: 14px;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 .description__p {
   line-height: 1.71;

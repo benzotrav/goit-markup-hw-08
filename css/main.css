@@ -711,6 +711,12 @@ img {
   font-size: 14px;
 }
 
+@media screen and (max-width: 767px) {
+  .description__h3 {
+    text-align: center;
+  }
+}
+
 .description__p {
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -812,8 +818,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: -15px;
-    margin-top: 0px;
+    margin: 0px -15px;
   }
 }
 
