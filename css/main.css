@@ -1303,6 +1303,7 @@ img {
   .maincontant-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -1324,6 +1325,12 @@ img {
     margin-bottom: 30px;
     margin-right: 30px;
     flex-basis: calc(100% / 2 - 30px);
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .maincontant-list__li:nth-child(2n) {
+    margin-right: 0px;
   }
 }
 
